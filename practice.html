@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Google Font Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+        
+    nav {
+        width: 100%;
+        background-color: white;
+        padding-left: 30px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-around;  
+    }
+
+    .navbar {
+        margin-bottom: 0;
+        position: fixed; /* Make it stick/fixed */
+        top: 0; /* Stay on top */
+        width: 100%; /* Full width */
+        transition: top 0.3s; /* Transition effect when sliding down (and up) */   
+        z-index: 2;     
+    }
+
+    .navbar a {
+        vertical-align: middle; 
+    }
+
+    .logo {
+        display: inline-block;
+
+    }
+
+    .nav-links {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+    .nav-item {
+        display: inline-block;
+    }
+
+    .nav-item a {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: black; 
+        vertical-align: middle;
+    }
+
+    .nav-item:hover {
+        background-color: black;
+    }
+
+    .nav-item:hover a {
+        color: white;
+    }
+
+    .logo img {
+        width: 175px;
+        vertical-align: middle;
+    }
+
+    .hero {
+        height: 600px;
+        background-image: url("https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+        position: relative;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: burlywood;
+        padding: 20px;
+        color: black;
+        font-weight: 900;
+    }
+
+    .call-out {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .call-out .item {
+        display: inline-block;
+    }
+
+    .call-out .item img {
+        width: 200px;
+        max-width: 200px;
+        max-height: 250px;
+        border-radius: 10%;
+        padding-bottom: 40px;
+    }
+
+    .cta {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .cta_section button {
+        padding: 10px;
+        color: white;
+        background-color: black;
+        font-style: italic;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 250px;
+    }
+
+    .story {
+        display: flex;
+        justify-self: space-around;
+    }
+
+    .story img {
+        width: 300px;
+    }
+
+    .form {
+        padding-top: 40px;
+        padding-bottom: 40px; 
+    }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="https://www.billyloc.com" class="logo">
+                <span class="material-icons md-48">switch_right</span>
+            </a>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#">Menu</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contact</a></li>
+            </ul>        
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>University/College Website</h1>
+    </div>
+    <section>
+        <div class="container">
+            <div class="call-out">
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1549554865-37e01f877035?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et veritatis maxime magni, praesentium ullam non dolor porro itaque vitae, cum exercitationem, quam totam tempore quia omnis error provident dolores doloremque!</p>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1552912140-6b3c254f5214?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione nisi placeat animi necessitatibus eius officiis, voluptas maiores nobis nulla recusandae modi, rem reiciendis nesciunt perspiciatis amet. Iure obcaecati dolorem repudiandae!</p>
+                </div>
+                <div class="item">
+                    <img src="https://images.unsplash.com/photo-1599009432364-3dc0d1932da2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe autem asperiores a aliquam porro quam unde suscipit aperiam accusantium laboriosam? Deleniti officiis aspernatur veniam natus necessitatibus voluptatem aut. Possimus, adipisci!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta_section">
+                <h3>Please click the button to join!</h3>
+                <button>Click Here!</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="story">
+                <div class="col-md-6 col-sm-12">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1537237858032-3ad1b513cbcc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                   <div>
+                        <p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ratione itaque deleniti esse consequatur eaque sint cumque ipsam ut maiores dolorum, provident voluptas! Eius, officia aspernatur corporis, illo minima ullam.</p>
+                        <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Cum, temporibus tenetur, neque asperiores dicta voluptatum labore unde repellendus eaque fuga veniam eveniet recusandae. Officiis blanditiis id, saepe, amet aperiam quos.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Vero nisi illo totam commodi perspiciatis hic numquam, nesciunt placeat voluptate vitae labore fuga in aliquam, impedit neque explicabo sit accusamus minima!</p>
+                    </div>                    
+                </div>
+ 
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <div class="form_box">
+                <form action="">
+                    <div>
+                        <input type="text">
+                        <input type="text">                        
+                    </div>
+                    <div>
+                        <input type="text">
+                        <input type="tel">                        
+                    </div>
+                    <div>
+                        <input type="submit" class="submit">                        
+                    </div>   
+                </form>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+
+<script>
+    
+
+
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
+
+
+
+</script>
+</html>
+
+
+
